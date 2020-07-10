@@ -4,3 +4,4 @@
 
 layout: home
 ---
+This is the index page. File: index.md. Layout is home.

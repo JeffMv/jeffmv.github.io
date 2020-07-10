@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Jeffrey Mvutu Mabilama
 email: jeffrey.mvutu@gmail.com
+
 # description:
 #   [This will appear in your document head meta (for
 #   Google search results) and in your feed.xml site description.]
@@ -22,6 +23,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Software and mobile developer, Data engineer,
   Reverse engineering/White hat hacking for gathering data.
   #Ecommerce #Products #Trends
+
 # baseurl: "/Users/user/Projets/M_Main-projects/jmmvutu.site/jekyll-jmm/jmm_github_io/_sites" # the subpath of your site, e.g. /blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,8 +33,11 @@ github_username:  JeffMv
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
+# remote_theme: benbalter/retlab
+# plugins:
+#   - jekyll-feed
+#   - jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -45,3 +50,63 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+
+###########################################################
+#########   Required by other themes
+
+### benbalter/retlab
+### https://github.com/benbalter/retlab
+
+lang: fr-FR
+
+# Pages to include in header navigation
+nav_pages:
+  - index.html
+  - talks.md
+  - press.md
+  - about.md
+  - contact.md
+
+# Pages to include in footer navigation
+footer_pages:
+  - books.md
+  - fine-print.md
+
+
+
+# Front matter defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      comments: true
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+      comments: false
+
+# Plugins
+plugins:
+  # - jekyll-seo-tag
+  - jekyll-feed
+  # - jekyll-github-metadata
+  # - jekyll-avatar
+  # - jekyll-remote-theme
+
+
+###############################################################################
+###############################################################################
+
+# https://stackoverflow.com/questions/19963808/jekyll-doesnt-find-layouts-default-html
+# source: /blog/
+
+
+###############################################################################
+
