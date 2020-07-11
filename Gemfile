@@ -18,6 +18,10 @@ gem "minima", "~> 2.0"
 # This is the default theme for new Jekyll sites.
 # gem "jekyll-avatar"
 
+## to use remote themes (https://github.com/benbalter/jekyll-remote-theme)
+## discussion here https://github.community/t/how-can-i-customize-my-default-jekyll-theme-to-my-preferred-layout-or-design/10238/5
+# gem "jekyll-remote-theme"
+
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
