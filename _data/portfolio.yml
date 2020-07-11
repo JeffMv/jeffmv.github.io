@@ -12,6 +12,86 @@ works:
         url: https://data.world/jfreex
 
 
+showcasedSkillCategories:
+  - name: design
+    show: true
+    description: Tout pour la beauté du code
+  - name: mobile
+    show: true
+  - name: ios
+    show: false
+  - name: tools
+    show: true
+
+
+skills:
+  - name: Swift
+    categories: iOS,mobile,MacOS
+    # icon: devicon-bootstrap-plain-wordmark
+    colored: true
+
+  - name: Dart/Flutter
+    categories: iOS,Android,mobile
+    # icon: devicon-bootstrap-plain-wordmark
+    colored: true
+
+  - name: Bootstrap
+    categories: Design,Web
+    icon: devicon-bootstrap-plain-wordmark
+    colored: true
+
+  - name: Sass
+    categories: Design,Web
+    icon: devicon-sass-original
+    colored: true
+
+  - name: HTML5
+    categories: Design,Web
+    icon: devicon-html5-plain-wordmark
+    colored: false
+
+  - name: React
+    categories: Design,Web,Programming,Library
+    icon: devicon-react-original-wordmark
+    colored: true
+
+  - name: Javascript
+    categories: Design,Web,Programming,Language
+    icon: devicon-javascript-plain
+    colored: true
+
+
+  # - name: NodeJS
+  #   categories: Design,Web,Programming
+  #   icon: devicon-nodejs-plain-wordmark
+  #   colored: false
+
+  - name: Git
+    categories: Tools,Programming,Team,Collaboration,Project,Management
+    icon: devicon-git-plain
+    colored: false
+
+  - name: Gulp
+    categories: Tools,Programming,Project
+    icon: devicon-gulp-plain
+    colored: true
+
+  - name: Trello
+    categories: Tools,Team,Collaboration,Project,Management
+    # icon: devicon-git-plain
+    colored: true
+
+  - name: Sublime Text
+    categories: Tools,Programming,IDE
+    # icon: devicon-git-plain
+    colored: false
+
+  - name: Atom
+    categories: Tools,Programming,IDE
+    icon: devicon-atom-original-wordmark
+    colored: false
+
+
 
 projects:
   - title: Fasha Analytics

@@ -91,6 +91,13 @@ defaults:
     values:
       layout: page
       comments: false
+  # https://jekyllrb.com/docs/static-files/
+  # -
+  #   scope:
+  #     path: "assets/img"
+  #   values:
+  #     is_image: true
+
 
 # Plugins
 plugins:

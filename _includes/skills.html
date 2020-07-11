@@ -1,0 +1,52 @@
+<!-- Skills -->
+
+<aside class="clients">
+        <div class="container">
+
+            <!-- Example skillset -->
+            <div class="row">
+                <div class="tech">
+                    <h2>Code</h2>
+                    <i class="devicon-javascript-plain colored"></i>
+                    <i class="devicon-react-original-wordmark colored"></i>
+                    <i class="devicon-nodejs-plain-wordmark"></i>
+                    <p>Mumblecore hexagon, four loko raclette intelligentsia master cleanse Vinyl XOXO</p>
+                </div>
+            </div>
+
+{% assign targetCategories = site.data.portfolio.showcasedSkillCategories | where: "show", true %}
+{% for category in targetCategories %}
+    {% assign targetCategDowncase = category.name | downcase %}
+            <h4>
+                {{ targetCategDowncase | capitalize }}
+            </h4>
+
+            <div class="row">
+
+    {% for skill in site.data.portfolio.skills %}
+        {% assign origSize = skill.categories | size %}
+        {% assign currentCateg = skill.categories | downcase %}
+        {% assign splittedjoined = skill.categories | downcase | split: targetCategDowncase | join %}
+        
+        {% assign newSize = splittedjoined | size %}
+        {% assign testres = newSize < origSize %}
+
+        <!--
+        sizes (old,new): {{origSize}}, {{newSize}}
+        <br>
+        -->
+
+        {% if newSize < origSize %}
+                <div class="col-md-3 col-sm-6">
+                    {{ skill.name }}
+                </div>
+        {% endif %}
+    {% endfor %}
+    <br>
+
+            </div>
+{% endfor %}
+
+
+        </div>
+    </aside>
