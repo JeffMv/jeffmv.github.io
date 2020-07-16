@@ -1,15 +1,16 @@
 # portfolio.yml
 
 
-works:
-  - category: data
-    title: datasets
-    description: Quality datasets that are appreciated (> 10K views, > 5K downloads)
-    links:
-      - title: kaggle
-        url: https://www.kaggle.com/jmmvutu/datasets
-      - title: data.world
-        url: https://data.world/jfreex
+# works:
+#   - category: data
+#     title: datasets
+#     description: Quality datasets that are appreciated (> 10K views, > 5K downloads, used in more than 15 projects)
+#     category-icon: dataset
+#     links:
+#       - title: kaggle
+#         url: https://www.kaggle.com/jmmvutu/datasets
+#       - title: data.world
+#         url: https://data.world/jfreex
 
 
 showcasedSkillCategories:
@@ -97,10 +98,70 @@ projects:
   - title: Fasha Analytics
     subtitle: Fashion Store Helper SaaS
     layout: default
-    modal-id: 10
     date: 2020-05
+    project-date: May 2020
+    client: Founder
+    tags: CEO, Startup, SaaS
+    category: Web Development
+    description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
     img: treehouse.png
+    # thumbnail: treehouse-thumbnail.png
     thumbnail: fasha-logo.png
+    alt: image-alt
+    modal-id: 10
+
+  - category: Datasets
+    category-icon: dataset
+    title: Datasets
+    subtitle: Data mining of business data from remote datasources
+    description: I gathered and published quality datasets that received a great support and were really appreciated (> 10K views, > 5K downloads, used in more than 15 projects). Samples of these datasets are available on my Kaggle profile as well as my data.world profile.
+    date: 2018-2019
+    project-date: 2018-2019
+    img: https://miro.medium.com/max/3396/1*Bj6ltjOzo9eWkw1pWCEd0Q.png
+    remote-img: true
+    thumbnail: https://miro.medium.com/max/3396/1*Bj6ltjOzo9eWkw1pWCEd0Q.png
+    remote-thumbnail: true
+    links:
+      - title: kaggle
+        url: https://www.kaggle.com/jmmvutu/datasets
+      - title: data.world
+        url: https://data.world/jfreex
+    client: Personnel
+    tags: Kaggle, data.world, Datasets, Dataviz, Data Mining, SQL
+
+  - title: Software / Desktop App
+    subtitle: Creation of desktopm application. Tech stack Qt/C++, Python/Enaml
+    layout: default
+    modal-id: 14
+    date: 2014
+    img: treehouse.png
+    thumbnail: treehouse.png
+    remote-img: false
+    remote-thumbnail: false
+    # thumbnail: treehouse-thumbnail.png
+    alt: image-alt
+    project-date: 2014-2016
+    client: Founder
+    tags: CEO, Startup, SaaS, Software, App, Development
+    category: Development
+    description: >-
+      Development of Eulo, a desktop app that allows one to have watch statistics about lottery draws.
+      It does more than its competitors in the way that it handles every lottery type with the same codebase.
+      No more switching between diferent softwares to get statistics about that lottery. Everything is in-app and can be changed in the settings.
+      Note: the app computes statistics, i.e. it does not predict winning.
+    links:
+      - title: Discussion about probabilities, approaches and limits.
+        url: https://www.kaggle.com/jmmvutu/lottery-features-for-machine-learning-ai
+
+  - title: Graphique
+    subtitle: Réalisations graphiques pour l'entreprise
+    layout: default
+    modal-id: 13
+    date: 2012
+    img: treehouse.png
+    thumbnail: treehouse.png
+    remote-img: false
+    remote-thumbnail: false
     # thumbnail: treehouse-thumbnail.png
     alt: image-alt
     project-date: May 2020
@@ -109,20 +170,22 @@ projects:
     category: Web Development
     description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
-  - title: Fasha Analytics
-    subtitle: Fashion Store Helper SaaS
-    layout: default
-    modal-id: 11
-    date: 2020-05
-    img: treehouse.png
-    thumbnail: fasha-logo.png
-    # thumbnail: treehouse-thumbnail.png
-    alt: image-alt
-    project-date: May 2020
-    client: Founder
-    tags: CEO, Startup, SaaS
-    category: Web Development
-    description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+
+  # - title: Fasha Analytics
+  #   subtitle: Fashion Store Helper SaaS
+  #   layout: default
+  #   modal-id: 12
+  #   date: 2020-05
+  #   img: treehouse.png
+  #   thumbnail: fasha-logo.png
+  #   # thumbnail: treehouse-thumbnail.png
+  #   alt: image-alt
+  #   project-date: May 2020
+  #   client: Founder
+  #   tags: CEO, Startup, SaaS
+  #   category: Web Development
+  #   description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 
   # - title: Dreams
