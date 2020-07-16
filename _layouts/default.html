@@ -23,5 +23,47 @@
     {% include modals.html %}
     {% include js.html %}
 
+{% comment %}
+
+<br/> Design example: 
+https://jekyller.github.io/jasper2/
+<br/>
+<br/>
+
+https://jekyllrb.com/docs/variables/
+<table>
+
+<tr>
+<td>site</td>
+<td>
+Site wide information + configuration settings from _config.yml. See below for details.
+</td>
+</tr>
+
+<tr><td>page</td>
+<td>
+Page specific information + the front matter. Custom variables set via the front matter will be available here. See below for details.
+</td></tr>
+
+<tr><td>layout</td>
+<td>
+Layout specific information + the front matter. Custom variables set via front matter in layouts will be available here.
+</td></tr>
+
+<tr><td>content</td>
+<td>
+In layout files, the rendered content of the Post or Page being wrapped. Not defined in Post or Page files.
+</td></tr>
+
+<tr><td>paginator</td>
+<td>
+When the paginate configuration option is set, this variable becomes available for use. See Pagination for details.
+</td></tr>
+
+</table>
+
+{% endcomment %}
+
+
     </body>
 </html>
