@@ -1,0 +1,44 @@
+
+<section>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2> Downloads </h2>
+                <h3 class="section-subheading text-muted"> Elements téléchargeables </h3>
+            </div>
+        </div>
+
+        <div class="row">
+
+            {% for post in site.data.downloads.projects %}
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    
+
+
+                    <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/{{ post.thumbnail }}" class="img-responsive img-centered" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>{{ post.title }}</h4>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+
+                        <h5>
+                            Download <a href="{{ post.downloadUrl }}">here</a>
+                        </h5>
+                        <p class="text-muted">{{ post.subtitle }}</p>
+                    </div>
+
+
+                </div>
+            {% endfor %}
+
+        </div>
+    </div>
+
+</section>
