@@ -43,6 +43,24 @@ $(function() {
                     message: message
                 },
                 cache: false,
+
+                // handling other status codes (?)
+                /*
+                statusCode: {
+                    200: function(obj){
+                        console.log("Ok. Submitted without error. 200. Resp:");
+                        console.log(obj);
+                        alert("200 resp");
+                        alert(obj)
+                    },
+                    302: function(obj){
+                        alert("302 resp");
+                        alert(obj)
+                        obj.preventDefault();
+                    }
+                },
+                */
+
                 success: successResponse,
                 // success: function(msg) {
                 //     // Success message
