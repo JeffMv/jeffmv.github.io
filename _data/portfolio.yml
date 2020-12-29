@@ -267,3 +267,20 @@ downloads:
 # font:
 #   primary: 'Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif'
 #   secondary: '"Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif'
+
+
+
+### ------------------------------------------------------- ###
+###   M O C K U P S
+
+mockups:
+  - title: Mockup revamped into a tourism app
+    description: >-
+      Article détaillant ma démarche pour transformer un mockup pixélisé d'application mobile
+      en une version HD, en recréant l'interface utilisateur par du code.
+    articleUrl: https://www.linkedin.com/pulse/mockup-revamped-tourism-app-jeffrey-mvutu-mabilama
+    tags: ios,android,flutter,mobile,development,developer,tourisme
+    languages: Dart/Flutter
+    date: 2020-08-09
+    month: août 2020
+
